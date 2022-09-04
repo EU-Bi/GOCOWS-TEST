@@ -1,16 +1,18 @@
 .main-mid{
   text-align:left;
-  
+  width: 1200px;
 }
 .discription-block{
   text-align:left;
 }
 .wrapper-block{
+  
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 .block{
+  padding-top: 150px;
   width: 420px;
   img{
     width: 420px;

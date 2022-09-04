@@ -5,9 +5,9 @@ const Form=()=>{
     <div className='wrapper-form'>
       <h2>Sign up for our newsletter</h2>
       <form>
-        <input type='text' placeholder='....'/>
-        <input type="button" id='btn' />
-        <label for='btn'>Submit</label>
+        <input className='input' type='text' placeholder='....'/>
+        <input className='btn' type="button" id='btn' />
+        <label className='label'for='btn'></label>
       </form>
       
     </div>

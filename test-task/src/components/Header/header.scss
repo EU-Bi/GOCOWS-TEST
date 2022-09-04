@@ -12,21 +12,24 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  
   
 }
 .logo{
-  left: 0;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+  
 }
 .links{
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(0, -50%);
+  
   a{
+    text-decoration: none;
     padding-left: 90px;
   }
+}
+.fixed{
+  position: fixed;
+  width: 1200px;
+  top: 0;
+  
 }
