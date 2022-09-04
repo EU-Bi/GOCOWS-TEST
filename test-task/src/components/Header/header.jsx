@@ -5,7 +5,7 @@ const Header=()=>{
   return(
     <header className='Header'>
       <div className='headBar'>
-        <div>
+        <div className='logo'>
           <h3>minimo</h3>
         </div>
         <div className='links'>

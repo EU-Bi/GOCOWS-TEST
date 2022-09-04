@@ -1,0 +1,19 @@
+.main-mid{
+  text-align:left;
+  
+}
+.discription-block{
+  text-align:left;
+}
+.wrapper-block{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.block{
+  width: 420px;
+  img{
+    width: 420px;
+    height: 280px;
+  }
+}
